@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Bold.eot');
+    src: url('/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Bold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-SemiBold.eot');
+    src: url('/assets/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Medium.eot');
+    src: url('/assets/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Medium.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.imagecustom {
+    height: 630px;
+}
+
+.custommargin{
+    margin-top: 65px;
+}
+
+.shadowcustom{
+    box-shadow: 0px 0px 7px 1px #ccc7c7;
+}
+
+.headcustom{
+    align-self: center;
+    margin-left:10px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 0px;
+    letter-spacing: 0px;
+    color: #ed1c24;
+}
+
+.btncustom{
+    background-color: #ed1c24;
+    border: 1px solid #ed1c24;
+    margin-top: 75px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btncustom:hover{
+    background-color: #ff0c0c;
+    border: 1px solid #ff0c0c;
+    margin-top: 75px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.custompad2{
+    padding-left: 34px;
+    margin-top: 13px;
+}
+
+.img-fluid3{
+    width:50px;
+    height:50px;
+}
+
+.form-control-custom {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 0px;
+    color: #ed1c24;
+    letter-spacing: 0px;
+    margin-top: 30px;
+    margin-left: 10px;
+    opacity:0.85;
+}
+.form-control-custom2 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0px;
+    color: red;
+    letter-spacing: 0px;
+    opacity:0.85;
+}
+.custommargin {
+    margin-top:40px;
+}
+h2 {
+  width: 100%;
+    font-family: Montserrat;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px solid #ae9898;
+    line-height: 0.1em;
+    opacity:.65;
+} 
+
+.customform{
+    margin-left:27px;
+}
+
+.customafter {
+    width: 60%;
+    color: grey;
+    margin-left: 165px;
+    margin-top: 43px;
+}
+
+
+h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.textcustom{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 0px;
+    color: grey;
+    letter-spacing: 0px;
+    padding-left: 34px
+}
+
+.textcustom2 {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 9px;
+    color: grey;
+    letter-spacing: 0px;
+    padding-left: 150px;
+    opacity: .70;
+}
+
+.floating-form {
+  width:320px;
+}
+
+
+.floating-label { 
+  position:relative; 
+  margin-bottom:20px; 
+}
+.floating-input , .floating-select {
+  font-size:14px;
+  padding:4px 4px;
+  display:block;
+  width:100%;
+  height:30px;
+  background-color: transparent;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+
+.floating-input:focus , .floating-select:focus {
+     outline:none;
+     border-bottom:2px solid #cbcbcb; 
+}
+
+label {
+  color:#999; 
+  font-size:14px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:5px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+.floating-input:focus ~ label, .floating-input:not(:placeholder-shown) ~ label {
+  top:-18px;
+  font-size:14px;
+  color:#cbcbcb;
+}
+
+.floating-select:focus ~ label , .floating-select:not([value=""]):valid ~ label {
+  top:-18px;
+  font-size:14px;
+  color:#cbcbcb;
+}
+
+.floating-input:focus ~ .bar:before, .floating-input:focus ~ .bar:after, .floating-select:focus ~ .bar:before, .floating-select:focus ~ .bar:after {
+  width:50%;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.floating-textarea {
+   min-height: 30px;
+   max-height: 260px; 
+   overflow:hidden;
+  overflow-x: hidden; 
+}
+
+.highlight {
+  position:absolute;
+  height:50%; 
+  width:100%; 
+  top:15%; 
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+
+.floating-input:focus ~ .highlight , .floating-select:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+
+@-webkit-keyframes inputHighlighter {
+	from { background:#cbcbcb; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#cbcbcb; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#cbcbcb; }
+  to 	{ width:0; background:transparent; }
+}
