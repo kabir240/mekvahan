@@ -1,3 +1,180 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Bold.eot');
+    src: url('/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Bold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-SemiBold.eot');
+    src: url('/assets/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-SemiBold.woff') format('woff'),
+        url('/assets/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/assets/fonts/Montserrat-Medium.eot');
+    src: url('/assets/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('/assets/fonts/Montserrat-Medium.woff') format('woff'),
+        url('/assets/fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.customabs{
+    position: absolute;
+    top: 104px;
+    left: 411px;
+}
+
+.customabs2{
+  top: 22px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.my-custom-tablist{
+  min-height:435px;
+  margin-bottom: 25px;
+}
+
+.bgcolor{
+  background-color: #ffff;
+}
+
+.customrow{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  padding-bottom:20px;
+}
+
+.customimg5{
+  width:100%;
+  height: auto;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.custompd5{
+  margin-left: 85px;
+  padding-top: 20px;
+}
+
+.welcometext{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding-top: 17px;
+}
+
+.customrow1{
+    margin-left: 26px;
+    margin-right: -245px;
+    line-height: 83px;
+}
+
+.customhead1{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 29px;
+  line-height: 62px;
+}
+
+.customhead2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 110px;
+    line-height: 62px;
+}
+.customhead3 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 110px;
+}
+.customcardhead{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 19px;
+}
+.customcardtext{
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 15px;
+  margin-left: 21px;
+  color: #584c4c;
+  opacity: .7;
+}
+
+
+.customcardbutton{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 36px;
+    margin: 0px 5px;
+    background-color: red;
+    border: 1px solid red;
+    opacity: .88;
+}
+
+.customcardbutton:hover{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 36px;
+    margin: 0px 5px;
+    background-color: red;
+    border: 1px solid red;
+    opacity: 1;
+}
+.customcardbutton2{
+  font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 28px;
+    margin: 0px 9px;
+    opacity: .65;
+    background-color: #7b7a7a;
+    border: 1px solid #7b7a7a;
+}
+
+.customcardbutton2:hover{
+  font-family: Montserrat;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 6px 28px;
+    margin: 0px 9px;
+    opacity: .85;
+    background-color: #7b7a7a;
+    border: 1px solid #7b7a7a;
+}
+
 .rwt__tab  {
   width: 100%
 }
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1170px;
+}
+}
+
