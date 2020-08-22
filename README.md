@@ -5,6 +5,14 @@ You can find the most recent version of this guide [here](https://github.com/fac
 
 ## Table of Contents
 
+![loginpage](https://user-images.githubusercontent.com/57840463/90954338-29267b00-e491-11ea-82f4-172693ecdc6f.png)
+![screencapture-localhost-3000-home-2020-08-22-15_59_51](https://user-images.githubusercontent.com/57840463/90954340-30e61f80-e491-11ea-8198-4cc9bd1377df.png)
+![screencapture-localhost-3000-home-2020-08-22-16_00_07](https://user-images.githubusercontent.com/57840463/90954342-317eb600-e491-11ea-9748-1ff70ce53063.png)
+![screencapture-localhost-3000-home-2020-08-22-16_00_21](https://user-images.githubusercontent.com/57840463/90954344-32174c80-e491-11ea-823e-aff646c3b6cd.png)
+![screencapture-localhost-3000-home-2020-08-22-16_00_56](https://user-images.githubusercontent.com/57840463/90954345-32afe300-e491-11ea-9e08-5598ccdd8269.png)
+![screencapture-localhost-3000-home-2020-08-22-16_01_33](https://user-images.githubusercontent.com/57840463/90954347-33e11000-e491-11ea-91b7-967a9ec1c12d.png)
+![screencapture-localhost-3000-home-2020-08-22-16_02_49](https://user-images.githubusercontent.com/57840463/90954349-3479a680-e491-11ea-99c4-8dbc32766515.png)
+
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
