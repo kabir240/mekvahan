@@ -109,6 +109,7 @@
     font-weight: 500;
     font-size: 20px;
     padding-left: 110px;
+    color:black;
 }
 .customcardhead{
   font-family: Montserrat;
@@ -170,6 +171,14 @@
 
 .rwt__tab  {
   width: 100%
+}
+
+.rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]:after{
+  border-bottom: 0px !important;
+}
+
+.rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]{
+  color:red;
 }
 
 @media (min-width: 1200px){

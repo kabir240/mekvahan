@@ -12,7 +12,7 @@ const Home = (props) => {
         if (addressadd){
             return(
                 <div>
-                <div className="row bgcolor pt-4" style={{"margin": "0px 15px 35px 15px"}}>
+                <div className="row bgcolor pt-4" style={{"margin": "0px 15px 35px 15px","min-height":"482px"}}>
                     <div className="col-12 col-md-6">
                         <Card body>
                         <CardTitle className="customcardhead"><img className="img-fluid mr-1" src="assets/images/home.png"></img> Home</CardTitle>
@@ -34,7 +34,7 @@ const Home = (props) => {
                         </Card>
                     </div>
                     <div className="col-12 col-md-6">
-                        <Card body className="mt-4">
+                        <Card body>
                         <CardTitle className="customcardhead"><img className="img-fluid mr-1" src="assets/images/pg.png"></img> PG</CardTitle>
                         <CardText className="customcardtext">{addressObject.pg}</CardText>
                         <div className="row ml-3">
@@ -70,7 +70,7 @@ const Home = (props) => {
         <Modal isOpen={modal} toggle={toggle}>
         <ModalHeader toggle={toggle} className="customhead">Add Addresses</ModalHeader>
         <ModalBody>
-        <div className="row justify-content-center">
+        <div className="row mt-3 justify-content-center">
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div class="floating-form">
                     <div class="floating-label">      
@@ -90,7 +90,7 @@ const Home = (props) => {
                         <label>PG Address</label>
                     </div>
                 </div>
-                <div className="row justify-content-center">
+                <div className="row justify-content-center" style={{"margin-top": "40px"}}>
                 <Button type="submit" className="customcardbutton" onClick={toggle}>Save</Button>
                 </div>
             </form>
